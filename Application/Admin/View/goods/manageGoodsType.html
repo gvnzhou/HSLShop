@@ -1,0 +1,79 @@
+<include file="./Application/Admin/View/index/head.html" />
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <ol class="breadcrumb">
+            <li><a href="#">当前位置</a></li>
+            <li><a href="#">商品管理</a></li>
+            <li><a href="#">商品分类管理</a></li>
+          </ol>
+
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="keywords">关键字：</label>
+              <input type="text" class="form-control" id="keywords" placeholder="输入要查找的内容">
+            </div>
+
+            <button type="submit" class="btn btn-default">查找</button>
+            <button type="submit" class="btn btn-default">显示全部</button>
+            <button type="submit" class="btn btn-default">添加</button>
+          </form>
+          
+          <div class="table-info">
+
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th><input type="checkbox"></th>
+                  <th>id</th>
+                  <th>商品分类名称</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+              <volist name="list" id="vo">
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>{$vo.cat_id}</td>
+                  <td>{$vo.cat_name}</td>
+                  <td><a href="__APP__/Admin/Goods/editGoodsType/GoodsTypeId/{$vo.cat_id}">修改</a><a href="__APP__/Admin/Goods/delGoodsType/GoodsTypeId/{$vo.cat_id}">删除</a></td>
+                </tr>
+              </volist>
+              </tbody>
+            </table>
+          
+            <button type="button" class="btn btn-danger">删除</button>
+          </div>
+
+<!--           <nav class="paging-wrap">
+            <ul class="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav> -->
+          
+          
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,124 @@
+[ 2016-04-21T15:09:06+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020296s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003778s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007978s ]
+
+[ 2016-04-21T15:09:06+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020280s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-04-21T15:26:06+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:16+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:22+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:25+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/UserId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:39+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/UserId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:41+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/UserId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:49+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/UserId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 非法操作:delUser
+
+[ 2016-04-21T15:27:52+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/index/delUser/UserId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+ERR: 非法操作:delUser
+

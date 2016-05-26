@@ -1,0 +1,12 @@
+[ 2016-05-06T15:45:27+08:00 ] 127.0.0.1 /HSLshop/index.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:Login
+
+[ 2016-05-06T15:45:39+08:00 ] 127.0.0.1 /HSLshop/index.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:Login
+

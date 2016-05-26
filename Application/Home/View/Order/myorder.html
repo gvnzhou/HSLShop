@@ -1,0 +1,94 @@
+
+<include file="./Application/Home/View/Index/head.html" />
+      
+  
+  <div class="container">
+    <div class="container-wrap clearfix">
+      
+      <div class="user-info">
+        <nav>
+          <h2>我的天猴商城</h2>
+          <a href="">修改资料</a>
+          <a href="__APP__/Home/Order/myOrder">我的订单</a>
+        </nav>
+      </div>
+
+
+      <div class="my-order-list clearfix">
+        <h3>我的订单</h3>
+        <ul class="my-order-title clearfix">
+          <li class="order-num">订单编号</li>
+          <li class="goods-name">商品名称</li>
+          <li class="goods-price">单价（元）</li>
+          <li class="goods-num">数量</li>
+          <li class="order-total">总计</li>
+          <li class="order-time">购买时间</li>
+          <li class="order-state">支付状态</li>
+          <li class="order-operate">操作</li>
+          <li class="goods-state">退/发货状态</li>
+        </ul>
+
+
+
+        <volist name="OrderInfoList" id="vo">
+        <ul class="my-order-box my-order-title clearfix">
+          <li class="order-num order-1 order-2">
+            {$vo.order_sn}
+          </li>
+          <li class="goods-list">
+
+            <volist name="vo['goods']" id="goods">
+
+              <ul class="clearfix">
+                <li class="goods-name">
+                <img src="__ROOT__/{$goods.goods_img}" alt="">
+                  <a href="">{$goods.goods_name}</a>
+                </li>
+                <li class="goods-price">{$goods.goods_price}</li>
+                <li class="goods-num">{$goods.goods_number}</li>
+              </ul>
+            
+            </volist>
+
+          </li>
+          <li class="order-total order-1 order-2">{$vo.goods_amount}</li>
+          <li class="order-time order-1 order-2">{$vo.create_time|date="Y-m-d H:i",###}</li>
+          <li class="order-state order-1 order-2">
+            <switch name="vo.pay_status">
+              <case value="0">未支付</case>
+              <case value="1">已支付</case>
+            </switch>
+          </li>
+          <li class="order-operate order-1">
+            <div>
+              <a href="__APP__/Home/Order/OrderDetail/orderId/{$vo.order_id}">订单详情</a>
+              <a href="__APP__/Home/Order/payOrder/orderId/{$vo.order_id}">现在支付</a>
+              <a href="__APP__/Home/Order/deleteOrder/orderId/{$vo.order_id}" class="red">取消订单</a>
+            </div>
+          </li>
+          <li class="goods-state order-1 order-2">
+            <switch name="vo.order_status">
+              <case value="0">未发货</case>
+              <case value="1">已发货</case>
+              <case value="2">订单关闭</case>
+            </switch>
+          </li>
+        </ul>
+        </volist>
+
+      </div>
+      
+      
+      
+
+    </div>  
+  </div>
+
+
+  <div class="footer">
+    <p>javion25.github.io 版权所有 &copy;</p>
+  </div>
+  <script src="__JS__/jquery-1.12.2.min.js"></script>
+  <script src="__JS__/myorder.js"></script>
+</body>
+</html>

@@ -9,10 +9,10 @@
     <title>天猴商城后台管理中心</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../Public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/HSLshop/Public/admin/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../../Public/admin/css/dashboard.css" rel="stylesheet">
+    <link href="/HSLshop/Public/admin/css/dashboard.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -41,13 +41,13 @@
 
         <div id="navbar" class="navbar-collapse collapse pull-right">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">修改密码</a></li>
-            <li><a href="#">退出系统</a></li>
+            <li><a href="/HSLshop/index.php/Admin/System/index">修改密码</a></li>
+            <li><a href="/HSLshop/index.php/Admin/System/exitUser">退出系统</a></li>
           </ul>
         </div>
         
         <div class="user-info pull-right">
-          <span>当前登录人：</span><strong>admin</strong>
+          <span>当前登录人：</span><strong><?php echo (session('adminUser')); ?></strong>
         </div>
 
       </div>
@@ -62,7 +62,7 @@
             <li>
               <span>用户管理</span>
               <ul class="nav">
-                <li><a href="#">注册用户管理</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Index/">注册用户管理</a></li>
               </ul>
             </li>
 
@@ -70,32 +70,33 @@
             <li>
               <span>商品管理</span>
               <ul class="nav">
-                <li><a href="">添加商品分类</a></li>
-                <li><a href="">商品分类管理</a></li>
-                <li><a href="">添加商品</a></li>
-                <li><a href="">商品管理</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Goods/addGoodsType">添加商品分类</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Goods/manageGoodsType">商品分类管理</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Goods/addGoods">添加商品</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Goods/manageGoods">商品管理</a></li>
               </ul>
             </li>
+            
             
             <li>
               <span>订单管理</span>
               <ul class="nav">
-                <li><a href="">订单信息管理</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Order/index">订单信息管理</a></li>
               </ul>
             </li>
             
             <li>
               <span>留言板管理</span>
               <ul class="nav">
-                <li><a href="">留言回复管理</a></li>
+                <li><a href="/HSLshop/index.php/Admin/Board/index">留言回复管理</a></li>
               </ul>
             </li>
             
             <li>
               <span>系统管理</span>
               <ul class="nav">
-                <li><a href="">修改密码</a></li>
-                <li><a href="">退出系统</a></li>
+                <li><a href="/HSLshop/index.php/Admin/System/index">修改密码</a></li>
+                <li><a href="/HSLshop/index.php/Admin/System/exitUser">退出系统</a></li>
               </ul>
             </li>
 
@@ -112,8 +113,9 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
           <ol class="breadcrumb">
-            <li><a href="#">用户管理</a></li>
-            <li><a href="#">注册用户管理</a></li>
+            <li><a href="/HSLshop/index.php/Admin/Index/">当前位置</a></li>
+            <li><a href="/HSLshop/index.php/Admin/Index/">用户管理</a></li>
+            <li><a href="/HSLshop/index.php/Admin/Index/">注册用户管理</a></li>
           </ol>
 
           <form class="form-inline">
@@ -123,59 +125,40 @@
             </div>
 
             <button type="submit" class="btn btn-default">查找</button>
-            <button type="submit" class="btn btn-default">显示全部</button>
             <button type="submit" class="btn btn-default">添加</button>
           </form>
           
-          <div class="table-user">
+          <div class="table-info">
 
-            <table class="table table-bordered">
-            <thead>
-                <tr>
-                  <th><input type="checkbox"></th>
-                  <th>id</th>
-                  <th>用户名</th>
-                  <th>姓名</th>
-                  <th>Email</th>
-                  <th>注册时间</th>
-                  <th>操作</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><input type="checkbox"></td>
-                  <td>1</td>
-                  <td>ipsum</td>
-                  <td>啊啊啊</td>
-                  <td>314234234@qq.com</td>
-                  <td>2012-1-23</td>
-                  <td><a href="">修改</a><a href="">删除</a></td>
-                </tr>
-                <tr>
-                  <td><input type="checkbox"></td>
-                  <td>1</td>
-                  <td>ipsum</td>
-                  <td>啊啊啊</td>
-                  <td>314234234@qq.com</td>
-                  <td>2012-1-23</td>
-                  <td><a href="">修改</a><a href="">删除</a></td>
-                </tr>
-                <tr>
-                  <td><input type="checkbox"></td>
-                  <td>1</td>
-                  <td>ipsum</td>
-                  <td>啊啊啊</td>
-                  <td>314234234@qq.com</td>
-                  <td>2012-1-23</td>
-                  <td><a href="">修改</a><a href="">删除</a></td>
-                </tr>
-              </tbody>
-            </table>
-          
+              <table class="table table-bordered">
+              <thead>
+                  <tr>
+                    <th><input type="checkbox"></th>
+                    <th>id</th>
+                    <th>用户名</th>
+                    <th>姓名</th>
+                    <th>Email</th>
+                    <th>注册时间</th>
+                    <th>操作</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                    <td><input type="checkbox"></td>
+                    <td><?php echo ($vo["user_id"]); ?></td>
+                    <td><?php echo ($vo["user_name"]); ?></td>
+                    <td><?php echo ($vo["nickname"]); ?></td>
+                    <td><?php echo ($vo["email"]); ?></td>
+                    <td><?php echo (date("Y-m-d H:i",$vo["reg_time"])); ?></td>
+                    <td><a href="/HSLshop/index.php/Admin/Index/editUser/UserId/<?php echo ($vo["user_id"]); ?>">修改</a><a href="/HSLshop/index.php/Admin/Index/delUser/UserId/<?php echo ($vo["user_id"]); ?>">删除</a></td>
+                  </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                </tbody>
+              </table>
+            
             <button type="button" class="btn btn-danger">删除</button>
           </div>
 
-          <nav class="paging-wrap">
+          <!-- <nav class="paging-wrap">
             <ul class="pagination">
               <li>
                 <a href="#" aria-label="Previous">
@@ -193,7 +176,7 @@
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> -->
           
           
         </div>

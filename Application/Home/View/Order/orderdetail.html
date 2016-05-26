@@ -1,0 +1,118 @@
+
+<include file="./Application/Home/View/Index/head.html" />
+      
+  
+  <div class="container">
+    <div class="container-wrap clearfix">
+      
+      <div class="user-info">
+        <nav>
+          <h2>我的天猴商城</h2>
+          <a href="">修改资料</a>
+          <a href="__APP__/Home/Order/myOrder">我的订单</a>
+        </nav>
+      </div>
+
+      <div class="order-detail-list">
+        <h3>我的订单详情</h3>
+
+        <h4>订单信息：</h4>
+        <ul class="order-title">
+          <li class="order-id">订单编号</li>
+          <li class="order-total">总计</li>
+          <li class="order-time">购买时间</li>
+          <li class="order-state">支付状态</li>
+          <li class="pay-info">支付信息</li>
+          <li class="goods-state">退/发货状态</li>
+        </ul>
+        
+        <ul class="order-title order-info">
+          <li class="order-id">{$OrderInfoData.order_sn}</li>
+          <li class="order-total">￥{$OrderInfoData.goods_amount}</li>
+          <li class="order-time">{$OrderInfoData.create_time|date="Y-m-d H:i",###}</li>
+          <li class="order-state">
+            <switch name="OrderInfoData.pay_status">
+              <case value="0">未支付</case>
+              <case value="1">已支付</case>
+            </switch>
+          </li>
+          <li class="pay-info">
+            <p>收件人：{$OrderInfoData.consignee}</p>
+            <p>电话： {$OrderInfoData.tel}</p>
+            <p>{$OrderInfoData.address}</p>
+            <p>支付方式：
+            <switch name="OrderInfoData.pay_id">
+              <case value="1">支付宝支付</case>
+              <case value="2">微信支付</case>
+              <case value="3">货到付款</case>
+              <case value="4">网银支付</case>
+            </switch>
+            </p>
+            <p>配送方式： 
+            <switch name="OrderInfoData.ship_id">
+              <case value="1">普通快递</case>
+              <case value="2">EMS</case>
+              <case value="3">自取</case>
+            </switch>
+            </p>
+          </li>
+          <li class="goods-state">
+            <switch name="OrderInfoData.order_status">
+              <case value="0">未发货</case>
+              <case value="1">已发货</case>
+              <case value="2">订单关闭</case>
+            </switch>
+          </li>
+        </ul>
+        
+
+        <h4>订单商品：</h4>
+        <ul class="goods-title">
+          <li class="goods-name">商品名称</li>
+          <li class="goods-tag">分类</li>
+          <li class="goods-price">购买单价</li>
+          <li class="goods-num">购买数量</li>
+          <li class="order-小计">小计</li>
+        </ul>
+        
+        <volist name="OrderGoodsList" id="vo">
+          <ul class="goods-title goods-info">
+            <li class="goods-name">
+              <img src="__ROOT__/{$vo.goods_img}" alt="">
+              <a href="">{$vo.goods_name}</a>
+            </li>
+            <li class="goods-tag">
+              <switch name="vo.cat_id">
+                <case value="1">个人化妆</case>
+                <case value="6">图书影像</case>
+                <case value="7">家用电器</case>
+                <case value="8">手机数码</case>
+                <case value="9">服装帽饰</case>
+                <case value="10">运动健康</case>
+                <case value="11">母婴玩具</case>
+              </switch>
+            </li>
+            <li class="goods-price">
+              {$vo.goods_price}
+            </li>
+            <li class="goods-num">
+              {$vo.goods_number}
+            </li>
+            <li class="order-小计">
+              ￥{$vo['goods_price']*$vo['goods_number']}
+            </li>
+          </ul>
+        </volist>
+        
+      </div>
+    
+
+    </div>  
+  </div>
+
+
+  <div class="footer">
+    <p>javion25.github.io 版权所有 &copy;</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<include file="./Application/Admin/View/index/head.html" />
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <ol class="breadcrumb">
+            <li><a href="#">当前位置</a></li>
+            <li><a href="#">商品管理</a></li>
+            <li><a href="#">商品分类管理</a></li>
+          </ol>
+
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="keywords">关键字：</label>
+              <input type="text" class="form-control" id="keywords" placeholder="输入要查找的内容">
+            </div>
+
+            <button type="submit" class="btn btn-default">查找</button>
+            <button type="submit" class="btn btn-default">添加</button>
+          </form>
+          
+          <div class="table-info">
+            <form action="__APP__/Admin/Goods/editGoodsType/GoodsTypeId/{$data.cat_id}" method="post">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>id</th>
+                    <th>商品分类名称</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{$data.cat_id}</td>
+                    <td><input type="text" name="catname" value="{$data.cat_name}"></td>
+                  </tr>
+                </tbody>
+              </table>
+            
+              <button type="submit" class="btn btn-danger">确认</button>
+
+            </form>
+          </div>
+
+
+          
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

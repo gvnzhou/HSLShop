@@ -1,0 +1,98 @@
+<include file="./Application/Home/View/Index/head.html" />
+      
+  
+  <div class="container">
+    <div class="container-wrap clearfix">
+      <div class="banner">
+        <img src="__IMG__/logo.jpg" alt="">
+        <div class="search-box">
+          <form action="">
+              <input type="text" name="keywords" placeholder="输入你想买的东西"><button>搜索</button>
+          </form>
+          <div class="search-hot">
+              <a href="">TFboy</a>
+              <a href="">阿尔法狗</a>
+              <a href="">iphone7s</a>
+              <a href="">单反</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-car">
+        <ul class="goods-title">
+          <li>商品信息</li>
+          <li>分类</li>
+          <li>单价（元）</li>
+          <li>数量</li>
+          <li>金额</li>
+          <li>操作</li>
+        </ul>
+        
+        <present name="Think.session.GoodsIdList">
+
+        <volist name="GoodsList" id="vo">
+          <div class="goods-box clearfix">
+            <div class="goods-info">
+              <div class="goods-name">
+                <img src="__ROOT__/{$vo.goods_img}" alt="">
+                <a href="">{$vo.goods_name}</a>
+              </div>
+              <div class="goods-other">
+                <p>型号：{$vo.goods_model}</p>
+                <p>规格：{$vo.goods_spec}</p>
+              </div>
+            </div>
+            <div class="goods-cate">
+              <span>
+              <switch name="vo.cat_id">
+                <case value="1">个人化妆</case>
+                <case value="6">图书影像</case>
+                <case value="7">家用电器</case>
+                <case value="8">手机数码</case>
+                <case value="9">服装帽饰</case>
+                <case value="10">运动健康</case>
+                <case value="11">母婴玩具</case>
+              </switch>
+              </span>
+            </div>
+            <div class="goods-price">
+              <span>{$vo.goods_price}</span>
+            </div>
+            <div class="goods-num">
+             <input type="text" value="{$vo.goods_num}" id="goods-num" class="{$vo.goods_id}" data-price="{$vo.goods_price}">
+            </div>
+            <div class="price-total">
+              <span>{$vo['goods_price']*$vo['goods_num']}.00</span>
+            </div>
+            <div class="operate">
+              <a href="__APP__/Home/Cart/delGoods/GoodsId/{$vo.goods_id}">删除</a>
+            </div>
+          </div>
+        </volist>
+        <div class="total">
+          <span>合计：</span><span id="totalprice">￥{$TotalPrice}</span>
+        </div>
+        <else />
+          
+          <p>您的购物车为空，快去挑选商品吧！</p>
+          
+        </present>
+        
+        <div class="confirm">
+          <a href="__APP__/Home/Cart/delAllGoods/">清空购物车</a>
+          <a href="__APP__/Home/Order/index/">确认订单</a>
+        </div>
+
+      </div>
+
+    </div>  
+  </div>
+
+  <div class="footer">
+    <p>javion25.github.io 版权所有 &copy;</p>
+  </div>
+  <script src="__JS__/jquery-1.12.2.min.js"></script>
+  <script src="__JS__/basic.js"></script>
+  <script src="__JS__/cart.js"></script>
+</body>
+</html>

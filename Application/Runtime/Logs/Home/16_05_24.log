@@ -1,0 +1,77 @@
+[ 2016-05-24T22:57:34+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+ERR: SQLSTATE[HY000] [1130] Host '14.109.106.121' is not allowed to connect to this MySQL server
+
+[ 2016-05-24T23:02:29+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'root'@'%' to database 'hslshop'
+
+[ 2016-05-24T23:03:34+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'root'@'%' to database 'hslshop'
+
+[ 2016-05-24T23:05:19+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0627s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0611s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 ) ORDER BY goods_id DESC LIMIT 8   [ RunTime:0.0626s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0624s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.045341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045551s ]
+
+[ 2016-05-24T23:05:25+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0615s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '30' ) LIMIT 1   [ RunTime:0.0614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+

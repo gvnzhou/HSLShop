@@ -1,0 +1,72 @@
+<include file="./Application/Home/View/Index/head.html" />
+<include file="./Application/Home/View/Index/sidebar.html" />
+      
+  
+  
+      
+      <div class="content">
+
+
+        <div class="goods-details ">
+          <div class="goods-info clearfix">
+            <div class="goods-img">
+              <img src="__ROOT__/{$GoodsDetail.goods_img}" alt="">
+            </div>
+            <div class="goods-text">
+              <h2>{$GoodsDetail.goods_name}</h2>
+              <div class="info-list">
+                <dl>
+                  <dt>型号：</dt><dd>{$GoodsDetail.goods_model}</dd>
+                </dl>
+                <dl>
+                  <dt>规格：</dt><dd>{$GoodsDetail.goods_spec}</dd>
+                </dl>
+                <dl>
+                  <dt>产地：</dt><dd>{$GoodsDetail.goods_place}</dd>
+                </dl>
+                <dl>
+                  <dt>分类：</dt><dd>
+                  <switch name="GoodsDetail.cat_id">
+                      <case value="1">个人化妆</case>
+                      <case value="6">图书影像</case>
+                      <case value="7">家用电器</case>
+                      <case value="8">手机数码</case>
+                      <case value="9">服装帽饰</case>
+                      <case value="10">运动健康</case>
+                      <case value="11">母婴玩具</case>
+                    </switch>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>价格：</dt><dd>￥{$GoodsDetail.goods_price}元</dd>
+                </dl>
+                <dl>
+                  <dt>剩余库存：</dt><dd>{$GoodsDetail.goods_number}</dd>
+                </dl>
+                <dl>
+                  <dt>浏览：</dt><dd>{$GoodsDetail.click_count}次</dd>
+                </dl>   
+              </div>
+              <a href="__APP__/Home/Cart/addGoods/GoodsId/{$GoodsDetail.goods_id}" class="add-btn">加入购物车</a>
+            </div>
+          </div>
+        
+          <div class="goods-intro">
+            <h3>商品介绍：</h3>
+
+            <p>
+              {$GoodsDetail.goods_desc}
+            </p>
+          </div>
+        </div>
+      
+
+      </div>
+
+    </div>  
+  </div>
+
+
+<include file="./Application/Home/View/Index/footer.html" />
+</body>
+</html>

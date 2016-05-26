@@ -1,0 +1,26 @@
+[ 2016-05-05T21:29:06+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.1464s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.037323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.038090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+

@@ -1,0 +1,92 @@
+<include file="./Application/Admin/View/index/head.html" />
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <ol class="breadcrumb">
+            <li><a href="#">当前位置</a></li>
+            <li><a href="#">商品管理</a></li>
+            <li><a href="#">添加商品</a></li>
+          </ol>
+          
+          <div class="table-info">
+            <form action="__URL__/editGoods/GoodsId/{$data.goods_id}" enctype="multipart/form-data" method="post" >
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td>商品名称：</td>
+                  <td><input type="text" name="goodsname" value="{$data.goods_name}"></td>
+                </tr>
+                <tr>
+                  <td>商品分类：</td>
+                  <td>
+                    <select name="goodstype" id="">
+                      <volist name="list" id="vo">
+                        <option value="{$vo.cat_id}">{$vo.cat_name}</option>
+                      </volist>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>型号：</td>
+                  <td><input type="text" name="goodsmodel" value="{$data.goods_model}"></td>
+                </tr>
+                <tr>
+                  <td>规格：</td>
+                  <td><input type="text" name="goodsspec" value="{$data.goods_spec}"></td>
+                </tr>
+                <tr>
+                  <td>产地：</td>
+                  <td><input type="text" name="goodsplace" value="{$data.goods_place}"></td>
+                </tr>
+                <tr>
+                  <td>价格：</td>
+                  <td><input type="text" name="goodsprice" value="{$data.goods_price}"></td>
+                </tr>
+                <tr>
+                  <td>库存数量：</td>
+                  <td><input type="text" name="goodsnumber" value="{$data.goods_number}"></td>
+                </tr>
+                <tr>
+                  <td>商品图片：</td>
+                  <td><input type="file" name="goodsimg"></td>
+                </tr>
+                <tr>
+                  <td>详细说明：</td>
+                  <td>
+                    <textarea id="editor_id" name="content" style="width:700px;height:300px;">
+                    {$data.goods_desc}
+                    </textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><button class="btn btn-success">确认</button></td>
+                </tr>
+              </tbody>
+            </table>
+            </form>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <script charset="utf-8" src="__JS__/jquery-1.12.2.min.js"></script>
+    <script charset="utf-8" src="__EDITOR__/kindeditor-all-min.js"></script>
+    <script charset="utf-8" src="__EDITOR__/kindeditor-all-min.js"></script>
+    <script charset="utf-8" src="__EDITOR__/lang/zh-CN.js"></script>
+    <script>
+      KindEditor.ready(function(K) {
+        var options = {
+          cssPath : '__EDITOR__/themes/default/default.css',
+          filterMode : true
+        };
+        var editor = K.create('textarea[name="content"]', options);
+      });
+    </script>
+
+  </body>
+</html>

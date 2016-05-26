@@ -1,0 +1,1654 @@
+[ 2016-05-10T15:33:42+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007869s ]
+
+[ 2016-05-10T17:41:20+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.099359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099521s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0764s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0311s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013946s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010392s ]
+
+[ 2016-05-10T17:41:30+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012258s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-05-10T17:41:47+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004603s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000920s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002193s ]
+
+[ 2016-05-10T17:43:28+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-05-10T17:43:29+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-05-10T17:43:32+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '7' ) LIMIT 1   [ RunTime:0.0115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-05-10T17:43:34+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/addGoods/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-05-10T17:43:35+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003863s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-05-10T17:43:39+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-05-10T17:43:41+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-05-10T17:43:48+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-05-10T17:43:58+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-05-10T17:43:59+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2016-05-10T17:44:00+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-05-10T17:44:01+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004895s ]
+
+[ 2016-05-10T17:44:03+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '8' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000649s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2016-05-10T17:44:05+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-05-10T17:44:39+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2016-05-10T17:46:50+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-05-10T17:52:19+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-05-10T18:16:05+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.1615s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007891s ]
+
+[ 2016-05-10T18:18:23+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002385s ]
+
+[ 2016-05-10T18:18:25+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-05-10T18:18:26+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '7' ) LIMIT 1   [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-05-10T18:18:28+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/addGoods/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-05-10T18:18:29+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-05-10T18:18:32+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-05-10T19:00:41+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009135s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.2247s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0575s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010391s ]
+
+[ 2016-05-10T19:00:43+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-05-10T19:00:46+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000786s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2016-05-10T19:00:47+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '7' ) LIMIT 1   [ RunTime:0.0129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-05-10T19:00:49+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/addGoods/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-05-10T19:00:50+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-05-10T19:00:54+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+
+[ 2016-05-10T19:01:33+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000576s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000944s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003105s ]
+
+[ 2016-05-10T19:01:34+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+
+[ 2016-05-10T19:01:36+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-05-10T19:01:37+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/updateGoodsNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-05-10T19:01:42+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/delAllGoods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002258s ]
+
+[ 2016-05-10T19:01:44+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2016-05-10T19:01:44+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0022s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002675s ]
+
+[ 2016-05-10T19:01:45+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-05-10T19:01:47+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '8' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002924s ]
+
+[ 2016-05-10T19:01:48+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/addGoods/GoodsId/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004290s ]
+
+[ 2016-05-10T19:01:49+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 8  )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-05-10T19:03:01+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/delGoods/GoodsId/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-05-10T19:03:02+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004475s ]
+
+[ 2016-05-10T19:03:07+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002386s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-05-10T19:03:08+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003924s ]
+
+[ 2016-05-10T19:03:09+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2016-05-10T19:03:10+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002948s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2016-05-10T19:03:11+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003707s ]
+
+[ 2016-05-10T19:03:17+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004096s ]
+
+[ 2016-05-10T19:03:20+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num D:\wamp\www\HSLshop\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005050s ]
+
+[ 2016-05-10T19:03:23+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/delAllGoods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003416s ]
+
+[ 2016-05-10T19:03:24+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003365s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0019s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2016-05-10T19:03:26+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003614s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004408s ]
+
+[ 2016-05-10T19:03:27+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0024s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-05-10T19:03:28+08:00 ] 127.0.0.1 /HSLshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2016-05-10T19:03:29+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Goods/index/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '7' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000506s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003364s ]
+
+[ 2016-05-10T19:03:30+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/addGoods/GoodsId/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-05-10T19:03:32+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004477s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = 7  )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: goods_price D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001878s ]
+

@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="container-wrap clearfix">
+      <div class="banner">
+        <img src="__IMG__/logo.jpg" alt="">
+        <div class="search-box">
+          <form action="">
+              <input type="text" name="keywords" placeholder="输入你想买的东西"><button>搜索</button>
+          </form>
+          <div class="search-hot">
+              <a href="">帽子</a>
+              <a href="">炉石卡包</a>
+              <a href="">阿尔法狗</a>
+              <a href="">iphone7s</a>
+              <a href="">单反</a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="tag-nav">
+          <li><a href="">全部商品分类</a></li>
+          <volist name="GoodsTypeList" id="vo">
+          <li><a href="__APP__/Home/GoodsType/index/catId/{$vo.cat_id}">{$vo.cat_name}</a></li>
+          </volist>
+      </ul>

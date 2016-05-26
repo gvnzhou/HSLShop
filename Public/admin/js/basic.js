@@ -1,4 +1,6 @@
 $(function($) {
+
+  // 后台登陆
   $("#login-btn").click( function () {
     var username = $("#inputUserName").val();
     var password = $("#inputPassword").val();
@@ -34,4 +36,24 @@ $(function($) {
     }, "json");
 
   });
+
+  $("#add_goods")[0].onsubmit = function () {
+    var flag;
+    $("input[type='text']").each(function () {
+
+      if ($(this).val() == "") {
+        flag = 1;  
+      }
+
+    })
+     
+    if (flag) {
+      alert("选项不能为空！");
+      return false;
+    } 
+  }
+
+
+  
+
 });

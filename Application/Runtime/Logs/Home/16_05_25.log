@@ -1,0 +1,164 @@
+[ 2016-05-25T15:31:18+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0615s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 ) ORDER BY goods_id DESC LIMIT 8   [ RunTime:0.0645s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0634s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007327s ]
+
+[ 2016-05-25T15:31:21+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0706s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.1280s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-05-25T15:59:33+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0629s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0641s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_new = 1 ) ORDER BY goods_id DESC LIMIT 8   [ RunTime:0.0659s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_promote = 1 )  [ RunTime:0.0635s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( is_hot = 1 )  [ RunTime:0.0627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-05-25T15:59:36+08:00 ] 127.0.0.1 /HSLshop/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0629s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.1253s ]
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined index: GoodsIdList D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: TotalPrice D:\wamp\www\HSLshop\Application\Home\Controller\CartController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+

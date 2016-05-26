@@ -1,0 +1,1328 @@
+[ 2016-05-13T17:01:32+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-05-13T17:01:33+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-05-13T17:01:40+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `hsl_admin_user` [ RunTime:0.1243s ]
+SQL: SELECT `password` FROM `hsl_admin_user` WHERE ( user_name = 'admin' ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-05-13T17:01:40+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `hsl_users` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `hsl_users`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-05-13T17:43:38+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-05-13T18:01:30+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-05-13T18:01:31+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2016-05-13T18:01:37+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `hsl_admin_user` [ RunTime:0.1268s ]
+SQL: SELECT `password` FROM `hsl_admin_user` WHERE ( user_name = 'admin' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-05-13T18:01:37+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `hsl_users` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hsl_users`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-05-13T18:07:26+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-05-13T18:13:07+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0089s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735a8b2e87d0.jpg','1','too cool for school/涂酷柔滑鸡蛋泡沫面膜 100ml','8898','北京','99','too cool for school','<span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">Too</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">cool</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">for</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">school涂酷 柔滑鸡蛋泡沫面膜</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;149元 ,</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">100</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">毫升&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">too</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">cool</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">for</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">school</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">特别单品柔滑鸡蛋泡沫面膜,一经推出,倍受喜爱与好评。高保湿精华,轻轻一按自动起...</span>','100ml','1','1463134386','1463134386') [ RunTime:0.0337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2016-05-13T18:13:08+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-05-13T18:17:01+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0064s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735a99da63f4.jpg','1','韩国进口Whoo后化妆品套装 拱辰享雪玉凝天气丹秘贴自生津率享套盒中样系列套','889','韩国','165','Whoo','<span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">韩国进口Whoo后化妆品套装</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">拱辰享雪玉凝天气丹秘贴自生津率享套盒中样系列套</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">&nbsp;whoo后水妍秘贴五件套中样套盒图片、价格、品牌</span><span style=\"color:#CC0000;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">样样</span><span style=\"color:#333333;font-family:arial;font-size:13px;line-height:20.02px;background-color:#FFFFFF;\">齐全!【京东正品行货,全国配送</span>','1套','1','1','1463134621','1463134621') [ RunTime:0.0231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-05-13T18:17:02+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-05-13T18:20:37+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0031s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735aa75939a3.jpg','6','如果你不肯向这个世界投降','996','北京','25','xxy','<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	1. 复旦怪才、10W+粉丝自媒体红人苏清涛为千万奋斗小青年真诚写就的一本人生强大之书，虽毒辣，但热忱；虽刺痛心肺，但发人深思。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	2015年3月以来，在个人微信公众平台“扯淡不二”上发布《请别人开书单前，先确定自己真的读书》《在这个浮躁的时代里，如何不浮躁地活着》《你不是脾气太坏，而是格局太小》《情商高，就是说话“让人舒服”》《情商高的人，都是怎样“让人舒服”的》等数十篇文章刷爆朋友圈，被人民日报、新华视点、读者、青年报、十点读书、灼见等众多微信公众号疯狂转载，总阅读量过亿，并多次在半小时内阅读量破10W。其文以风格犀利毒辣、思想深刻独特见长，深受广大读者喜爱，人称“苏子”。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	<br />
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	2. 面对外界强大的压力，你无比焦虑、迷茫，徘徊在投降的悬崖边缘。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	你之所以焦虑、迷茫，是因为你不坚定，太“合群”，太弱小。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	这个世界投降的人太多，不缺你一个，只有内心坚定、拒不投降的人才可贵。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	听从自己内心的召唤，过自己真正想要的生活，坚决不向这个世界投降。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	这是一本刺痛千万奋斗小青年的人生强大之书，刺痛你，刺痛我，刺痛所有人。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	但，被刺痛并不可怕，只要认识到问题的症结，就还有改变的可能。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	36篇犀利文字，直指人心，勇于揭穿你困惑迷茫的人生真相，戳痛你麻木已久的软肋，让你勇敢面对生活，迅速变得强大。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	<br />
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	3. 畅销书《如果你想过1%的生活》作者杨奇函亲笔作序，林夏萨摩、蓑依、达达令诚意荐读。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	&emsp;&emsp;德不孤，必有邻。你与我把酒言欢，我陪你血战到底。这一生，不投降。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	——杨奇函（畅销书《如果你想过1%的生活》作者）
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	<br />
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	始终保持对内心的尊重和坚守，不被世俗淹没，也不被生活奴役，让世界的“残酷”成为你披甲上阵、勇往直前、击败千军万马的力量。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	——蓑依（畅销书《这世上的美好，唯你而已》作者）
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	<br />
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	一个人想按照自己喜欢的方式生活是很难的，我们每时每刻都在被外部世界指指点点，时间久了，会忘记自己的初心，失去独立思考和坚持自我的能力。希望你们能从这本书的文字里汲取力量，过自己真正想要的生活，不要向这个世界缴械投降。
+</p>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;background-color:#FFFFFF;\">
+	——林夏萨摩（畅销书《20几岁，你为什么害怕来不及》作者）
+</p>','1本','1','1','1463134837','1463134837') [ RunTime:0.1228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-05-13T18:20:38+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-05-13T18:23:05+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0033s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735ab09ab752.jpg','6','行动的勇气：金融危机及其余波回忆录 [ The Courage to Act]','333','北京','58','yyu','<span style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;line-height:24px;background-color:#FFFFFF;\">《行动的勇气》，全面阐释伯南克直面风险与拯救危局的金融哲学，是对经济危机救赎内幕前所未有的披露，以及他对金融政策的深入思考和现实考量。</span><br />
+<span style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;line-height:24px;background-color:#FFFFFF;\">&emsp;&emsp;2006年，伯南克被任命为美联储主席。从南卡罗来纳州的小镇到声誉卓著的学术殿堂，再到担任公职，伯南克个人的职业生涯可谓达到了一个意想不到的巅峰。</span><br />
+<span style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;line-height:24px;background-color:#FFFFFF;\">&emsp;&emsp;他根本无暇庆贺。</span><br />
+<span style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;line-height:24px;background-color:#FFFFFF;\">&emsp;&emsp;2007年，房地产泡沫破裂，全球金融系统的内在缺陷暴露无遗，一度濒临崩溃。从投行贝尔斯登的崩溃到对保险业巨头AIG开展空前救助，伯南克及其团队殚精竭虑，采取一切可用工具，遏制金融危机蔓延态势，使得美国乃至世界经济得以持续运转。</span><br />
+<span style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;line-height:24px;background-color:#FFFFFF;\">&emsp;&emsp;公众对华尔街的贪婪义愤填膺。伯南克及其团队承受了巨大压力，但他们在两位总统的积极支持下，终于成功地让一个摇摇欲坠的金融体系恢复了稳定。一旦美国经济彻底崩溃，规模与后果将不堪设想，但伯南克等人以非凡的创意和决心力挽狂澜。他们提出了一系列非传统的救助工具，帮助了美国经济的复苏，开创了令其他国家竞相效仿的模式。</span><br />
+<span style=\"color:#666666;font-family:Arial, Verdana, 宋体;font-size:14px;line-height:24px;background-color:#FFFFFF;\">&emsp;&emsp;《行动的勇气》记录和阐释了大萧条以来糟糕的金融危机和经济衰退，并以内部人士的视角回顾了华盛顿的应对政策，全面翔实地披露了决策过程的细节，栩栩如生地刻画了主要人物的个人形象，同时也梳理了伯南克在专业背景下对金融政策和工具的思考与反思。</span>','1本','1','1','1463134985','1463134985') [ RunTime:0.1405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-05-13T18:23:06+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-05-13T18:25:19+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735ab8f1f556.jpg','1','美的（Midea）电饭煲4l 圆灶釜电饭锅 智能预约 涡轮防溢电锅 ','9999','上海','349','WFS4037','<table cellpadding=\"0\" cellspacing=\"1\" width=\"100%\" border=\"0\" class=\"Ptable ke-zeroborder\" style=\"margin:10px 0px;color:#666666;font-family:Arial, Verdana, 宋体;font-size:12px;background:#CCCCCC;\">
+	<tbody>
+		<tr>
+			<th class=\"tdTitle\" colspan=\"2\" style=\"text-align:center;background:#F5FAFE;\">
+				主体
+			</th>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				品牌
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				美的（MIDEA）
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				型号
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				WFS4037
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				类别
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				电脑版
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				产品造型
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				方形煲
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				价格
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				300-499
+			</td>
+		</tr>
+		<tr>
+			<th class=\"tdTitle\" colspan=\"2\" style=\"text-align:center;background:#F5FAFE;\">
+				规格参数
+			</th>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				容量
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				4L
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				内胆材质
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				圆灶釜内胆
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				产品重量（kg）
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				3.9
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				产品毛重（kg）
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				5
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				加热方式
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				上下循环加热
+			</td>
+		</tr>
+		<tr>
+			<th class=\"tdTitle\" colspan=\"2\" style=\"text-align:center;background:#F5FAFE;\">
+				电源参数
+			</th>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				额定电压
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				220v
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				额定功率
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				770
+			</td>
+		</tr>
+		<tr>
+			<td class=\"tdTitle\" style=\"text-align:right;background:#F5FAFE;\">
+				额定频率
+			</td>
+			<td style=\"background:#FFFFFF;\">
+				50hz
+			</td>
+		</tr>
+	</tbody>
+</table>','1台','1','1','1463135119','1463135119') [ RunTime:0.1913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-05-13T18:25:21+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-05-13T18:25:34+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2016-05-13T18:25:37+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/editGoods/GoodsId/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-05-13T18:25:40+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/editGoods/GoodsId/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-05-13T18:25:45+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/editGoods/GoodsId/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2016-05-13T18:25:46+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/editGoods/GoodsId/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hsl_goods` WHERE ( goods_id = '13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-05-13T18:25:50+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0983s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2016-05-13T18:26:28+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-05-13T18:26:31+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoodsType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hsl_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-05-13T18:26:32+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-05-13T18:28:20+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0034s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735ac449b146.jpg','7','美的（Midea）微波炉 微电脑 平板 薄膜按键','667','上海','439',' EM7KCGW3-NR ','<span style=\"color:#E3393C;font-family:arial, \'microsoft yahei\';font-size:14px;line-height:20px;background-color:#FFFFFF;\">【人气爆款！限时疯抢！】营养智能菜单！快捷加热！电子杀菌除味！美的爱心3秒！防水墙设计，很贴心！买微波炉选美的！</span>','1台','1','1','1463135300','1463135300') [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-05-13T18:28:21+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-05-13T18:33:55+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735ad93a7652.jpg','9','南极人男士短袖T恤 男修身圆领半袖体恤青春夏装上衣服字母印花男装','9998','杭州','119','南极人','<img src=\"http://img10.360buyimg.com/imgzone/jfs/t2500/300/2940328757/338173/8f74b21d/56f4f7d4N98481357.jpg\" />','1件','1','1','1463135635','1463135635') [ RunTime:0.0351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-05-13T18:33:56+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-05-13T18:35:46+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735ae021cfe7.jpg','9','CARTELO卡帝乐鳄鱼短袖T恤男2016宽松翻领短袖条纹T恤商务男士POLO衫男','998','杭州','178','CARTELO','<img src=\"http://img10.360buyimg.com/imgzone/jfs/t2248/218/2846689327/322913/b4635e62/571dbc80N4a2e8877.jpg\" alt=\"\" border=\"0\" height=\"1042\" width=\"990\" /><img src=\"http://img10.360buyimg.com/imgzone/jfs/t2605/119/580915631/147054/da1db714/5719f2f3N62bdb8b1.jpg\" alt=\"\" border=\"0\" height=\"400\" />
+<div style=\"margin:0px;padding:0px;color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;\">
+	<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"990\" class=\"ke-zeroborder\">
+	</table>
+</div>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;\">
+	<a href=\"http://item.jd.com/1779855935.html\" target=\"_blank\"><img src=\"http://img10.360buyimg.com/imgzone/jfs/t2560/263/357943697/153189/612d449a/5646da00N27851d36.jpg\" alt=\"\" height=\"372\" width=\"990\" /></a>
+</p>
+<a href=\"http://sale.jd.com/mall/DXvabkcPrhzUqAt.html\" target=\"_blank\"></a>
+<p style=\"color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;\">
+	<a href=\"http://item.jd.com/1315343278.html\" target=\"_blank\"><img src=\"http://img10.360buyimg.com/imgzone/jfs/t2194/204/2650837962/238757/9e3dad3/570d063aNaa616a3d.jpg\" alt=\"\" height=\"380\" width=\"990\" /></a><img src=\"http://img10.360buyimg.com/imgzone/jfs/t2197/269/2583215362/199386/4255a660/570d063aN5e3bafca.jpg\" alt=\"\" border=\"0\" height=\"350\" width=\"990\" />
+</p>','1件','1','1','1463135746','1463135746') [ RunTime:0.0849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-05-13T18:35:47+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-05-13T18:37:45+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0045s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735ae795c84c.jpg','10','小米（MI）小米智能手环 光感版 心率手环（黑色腕带）','998','深圳','99','MI','<img src=\"http://img20.360buyimg.com/vc/jfs/t2155/326/2262529755/202173/2429e8ca/56fcdbf7Nb7beef23.jpg\" />','1件','1','1','1463135865','1463135865') [ RunTime:0.1229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-05-13T18:37:46+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-05-13T18:39:31+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0035s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735aee3a6bd2.jpg','11',' 圣元(Synutra)奶粉 优博58幼儿配方奶粉3段(12-36个月幼儿适用) 900克圣元(Synutra)奶粉 优博58幼儿配方奶粉3段(12-36个月幼儿适用) 900克圣元(Synutra)奶粉 优博58幼儿配方奶粉3段(12-36个月幼儿适用) 900克圣元(Synutra)奶粉 优博58幼儿配方奶粉3段(12-36个月幼儿适用) 900克圣元(Synutra)奶粉 优博58幼儿配方奶粉3段(12-36个月幼儿适用) 900克 商品编号：2584662关注商品分享 圣元(Synutra)奶粉 优博58幼儿配方奶粉3段(12-36个月幼儿适用) 900克','667','北京','168',' 圣元','<img src=\"http://img20.360buyimg.com/vc/jfs/t2194/72/2294817178/206538/ab9b9bf/56fa20aaN633fa08c.jpg\" />','900g','1','1','1463135971','1463135971') [ RunTime:0.0215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2016-05-13T18:39:32+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2016-05-13T18:40:33+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\HSLshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0048s ]
+SQL: INSERT INTO `hsl_goods` (`goods_img`,`cat_id`,`goods_name`,`goods_number`,`goods_place`,`goods_price`,`goods_model`,`goods_desc`,`goods_spec`,`click_count`,`is_new`,`create_time`,`update_time`) VALUES ('Uploads/2016-05-13/5735af213976e.jpg','11','NUK婴儿湿巾超厚特柔婴儿湿纸巾三连包(80片/包) 湿巾80片三联包','555','深圳','39.9','NUK','<div class=\"p-parameter\" style=\"margin:0px;padding:0px 10px 10px;color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;\">
+	<p class=\"more-par\" style=\"text-align:right;\">
+		<a href=\"http://item.jd.com/10249903203.html#product-detail\" class=\"J-more-param\">更多参数&gt;&gt;</a>
+	</p>
+</div>
+<div id=\"J-detail-pop-tpl-top-new\" style=\"margin:0px;padding:0px;color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;\">
+	<table id=\"__01\" width=\"990\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"ke-zeroborder\">
+		<tbody>
+			<tr>
+				<td colspan=\"5\">
+					<a href=\"http://mall.jd.com/view_page-41610500.html\" target=\"_black\"><img id=\"nukx5173x8054_01\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2149/5/2916352339/107479/f5604a4d/57219596Nac06ed2d.jpg\" width=\"990\" height=\"95\" border=\"0\" alt=\"\" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href=\"http://item.jd.com/10273695264.html\" target=\"_black\"><img id=\"nukx5173x8054_02\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2632/322/674383432/43465/f5c2290d/57219596N1cc06b31.jpg\" width=\"203\" height=\"212\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249966138.html\" target=\"_black\"><img id=\"nukx5173x8054_03\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2095/254/2990428419/34162/5ea7dbb9/57219596Nd7380489.jpg\" width=\"196\" height=\"212\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249950420.html\" target=\"_black\"><img id=\"nukx5173x8054_04\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2623/127/696719997/32771/230a202a/57219596Ndb845462.jpg\" width=\"197\" height=\"212\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249778762.html\" target=\"_black\"><img id=\"nukx5173x8054_05\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2890/319/683411321/45543/2f5a965f/57219596Nd1cd9299.jpg\" width=\"198\" height=\"212\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249720167.html\" target=\"_black\"><img id=\"nukx5173x8054_06\" src=\"http://img10.360buyimg.com/imgzone/jfs/t1999/157/2951772303/35541/f0ba1c2/57219596Ndaf110d6.jpg\" width=\"196\" height=\"212\" border=\"0\" alt=\"\" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href=\"http://item.jd.com/10249903203.html\" target=\"_black\"><img id=\"nukx5173x8054_07\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2698/350/674126141/38022/aef9c623/57219596N47aa9f62.jpg\" width=\"203\" height=\"226\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249964099.html\" target=\"_black\"><img id=\"nukx5173x8054_08\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2842/285/695813839/29760/50d880cd/5721959aNbc4e1dd1.jpg\" width=\"196\" height=\"226\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10251561993.html\" target=\"_black\"><img id=\"nukx5173x8054_09\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2629/278/707224830/31225/e4ddada/5721959aN0a8ddd9f.jpg\" width=\"197\" height=\"226\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249820300.html\" target=\"_black\"><img id=\"nukx5173x8054_10\" src=\"http://img10.360buyimg.com/imgzone/jfs/t808/126/1240943578/48146/852a0d74/5721959aNfbf1fa06.jpg\" width=\"198\" height=\"226\" border=\"0\" alt=\"\" /></a>
+				</td>
+				<td>
+					<a href=\"http://item.jd.com/10249711210.html\" target=\"_black\"><img id=\"nukx5173x8054_11\" src=\"http://img10.360buyimg.com/imgzone/jfs/t2635/286/684733537/42846/a3e0e21a/5721959aNae7448bf.jpg\" width=\"196\" height=\"226\" border=\"0\" alt=\"\" /></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<img src=\"http://img10.360buyimg.com/imgzone/jfs/t2701/357/871359682/157903/44adf1bd/5729b802N603e0b0b.jpg\" alt=\"\" />
+</div>','80片','1','1','1463136033','1463136033') [ RunTime:0.1153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-05-13T18:40:34+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-05-13T19:05:25+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `hsl_users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hsl_users`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-05-13T19:06:48+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `hsl_users` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hsl_users`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-05-13T19:08:11+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `hsl_users` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `hsl_users`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-05-13T19:15:13+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoodsType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-05-13T19:15:47+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoodsType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hsl_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2016-05-13T19:16:03+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoodsType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-05-13T19:16:11+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `hsl_users` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `hsl_users`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-05-13T19:17:03+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoodsType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hsl_goods_type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-05-13T19:17:30+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `hsl_goods_type` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hsl_goods_type` WHERE ( enabled = 1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-05-13T19:23:29+08:00 ] 127.0.0.1 /HSLshop/index.php/Admin/Goods/manageGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `hsl_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hsl_goods`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+

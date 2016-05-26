@@ -1,0 +1,95 @@
+<include file="./Application/Admin/View/index/head.html" />
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <ol class="breadcrumb">
+            <li><a href="#">当前位置</a></li>
+            <li><a href="#">商品管理</a></li>
+          </ol>
+
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="keywords">关键字：</label>
+              <input type="text" class="form-control" id="keywords" placeholder="输入要查找的内容">
+            </div>
+
+            <button type="submit" class="btn btn-default">查找</button>
+            <button type="submit" class="btn btn-default">显示全部</button>
+            <button type="submit" class="btn btn-default">添加</button>
+          </form>
+          
+          <div class="table-info">
+
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th><input type="checkbox"></th>
+                  <th>编号</th>
+                  <th>商品名称</th>
+                  <th>商品分类</th>
+                  <th>型号</th>
+                  <th>规格</th>
+                  <th>价格</th>
+                  <th>库存数量</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <volist name="list" id="vo">
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>{$vo.goods_id}</td>
+                  <td>{$vo.goods_name}</td>
+                  <td>
+                    <switch name="vo.cat_id">
+                      <case value="1">个人化妆</case>
+                      <case value="6">图书影像</case>
+                      <case value="7">家用电器</case>
+                      <case value="8">手机数码</case>
+                      <case value="9">服装帽饰</case>
+                      <case value="10">运动健康</case>
+                      <case value="11">母婴玩具</case>
+                    </switch>
+                  </td>
+                  <td>{$vo.goods_model}</td>
+                  <td>{$vo.goods_spec}</td>
+                  <td>{$vo.goods_price}</td>
+                  <td>{$vo.goods_number}</td>
+                  <td><a href="__APP__/Admin/Goods/editGoods/GoodsId/{$vo.goods_id}">修改</a><a href="__APP__/Admin/Goods/delGoods/GoodsId/{$vo.goods_id}">删除</a></td>
+                </tr>
+                </volist>
+              </tbody>
+            </table>
+            <button type="button" class="btn btn-danger">删除</button>
+          </div>
+          <!-- <nav class="paging-wrap">
+            <ul class="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav> -->
+          
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

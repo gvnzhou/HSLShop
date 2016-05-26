@@ -2,8 +2,12 @@
 namespace Admin\Controller;
 use Think\Controller;
 class LoginController extends Controller {
+  
   public function index(){
+
     $this->display();
+
+
   }
 
   public function login(){
@@ -17,12 +21,14 @@ class LoginController extends Controller {
 
         $pwd = $AdminUser->where("user_name = '$UserName'")->getField('password');
 
-        $Url = U('Admin/Index/index');
+        $Url = U("Admin/Index/index/");
 
         if ($PassWord == $pwd) {
 
           $data['status']  = 1;
           $data['url'] = $Url;
+
+          session('adminUser', $UserName); 
 
           $this->ajaxReturn($data);
 

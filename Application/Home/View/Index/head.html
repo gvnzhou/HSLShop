@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>天猴商城 - 买买买！你喜欢的</title>
+  <link rel="stylesheet" href="__CSS__/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="wrap clearfix">
+      <ul class="nav-user">
+
+        <present name="Think.session.username">
+          
+          <li>欢迎，<a href="__APP__/Home/Users/index">{$Think.session.username}</a></li>
+          <li><a href="__APP__/Home/Users/exitUser">退出</a></li>
+
+        <else />
+          <li><a href="__APP__/Home/Users/login">你好，请登录</a></li>
+          <li><a href="__APP__/Home/Users/register" class="text-orange">免费注册</a></li>
+        </present>
+
+        
+
+
+      </ul>
+      <ul class="navbar">
+        <li><a href="__APP__">首页</a></li>
+        <li><a href="__APP__/Home/Cart/index">我的购物车</a></li>
+        <li><a href="__APP__/Home/Order/myOrder">我的订单</a></li>
+        <li><a href="__APP__/Home/Board">留言板</a></li>
+      </ul>
+    </div>
+  </div>
+      
+  
+  

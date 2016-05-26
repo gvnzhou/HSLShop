@@ -1,0 +1,64 @@
+<include file="./Application/Home/View/Index/head.html" />
+<include file="./Application/Home/View/Index/sidebar.html" />
+
+      <div class="content">
+
+
+        <div class="board-box">
+          <div class="board-header">
+             <h2>留言板</h2>
+          </div>
+         
+
+          <volist name="MessageBoardList" id="vo" >
+            <div class="board-info">
+              <dl>
+                <dt>留言人：</dt><dd>{$vo.user_name}</dd>
+              </dl>
+              <dl>
+                <dt>留言内容：</dt><dd>{$vo.message_desc}</dd>
+              </dl>
+
+              <if condition="$vo.reply neq ''">
+
+                <dl class="light">
+                  <dt>回复内容：</dt><dd>{$vo.reply}</dd>
+                </dl>
+              
+              </if>
+    
+              <dl class="msg-time">
+                <dt>留言时间：</dt><dd>{$vo.add_time|date="Y-m-d H:i",###}</dd>
+              </dl>
+            </div>
+          </volist>
+
+
+
+          <div class="add-message">
+            <h3>我要留言：</h3>
+            <form action="__APP__/Home/Board/addMessage" method="post">
+              <div class="input-box">
+                <label for="">留言人：</label><input type="text" name="username" >
+              </div>
+              <div class="input-box">
+                <label for="">留言内容：</label><textarea name="content" id="" cols="30" rows="10"></textarea>
+              </div>
+              
+              <input type="submit" value="提交留言">
+            </form>
+            
+            
+          </div>
+        </div>
+        
+
+      </div>  
+  </div>
+
+
+  <div class="footer">
+    <p>javion25.github.io 版权所有 &copy;</p>
+  </div>
+</body>
+</html>

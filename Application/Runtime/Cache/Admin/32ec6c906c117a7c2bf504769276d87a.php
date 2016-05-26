@@ -9,10 +9,10 @@
     <title>天猴商城后台登录页面</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../Public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/HSLshop/Public/admin/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../../Public/admin/css/signin.css" rel="stylesheet">
+    <link href="/HSLshop/Public/admin/css/signin.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -37,8 +37,8 @@
 
     </div> <!-- /container -->
 
-    <script src="../../../Public/admin/js/jquery-1.12.2.min.js"></script>
-    <script src="../../../Public/admin/js/basic.js"></script>
+    <script src="/HSLshop/Public/admin/js/jquery-1.12.2.min.js"></script>
+    <script src="/HSLshop/Public/admin/js/basic.js"></script>
 
   </body>
 </html>

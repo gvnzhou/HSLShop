@@ -1,0 +1,51 @@
+<include file="./Application/Home/View/Index/head.html" />
+
+      
+  
+  <div class="container">
+    <div class="container-wrap clearfix">
+      
+      
+
+      <div class="user-info">
+        <nav>
+          <h2>我的天猴商城</h2>
+          <a href="">修改资料</a>
+          <a href="">我的订单</a>
+        </nav>
+        
+        <div class="info-edit">
+          <form action="">
+            <div class="input-box">
+              <label for="">用户名：</label>{$res.user_name}
+            </div>
+            <div class="input-box">
+              <label for="">密&nbsp;&nbsp;&nbsp;码：</label><input type="text">
+            </div>
+            <div class="input-box">
+              <label for="">E-mail：</label><input type="text">
+            </div>
+            <div class="input-box">
+              <label for="">注册时间：</label><span>{$res.reg_time|date="Y-m-d H:i",###}</span>
+            </div>
+            <input type="submit" value="修改资料">
+            
+          </form>
+
+        </div>
+        
+      </div>
+      
+
+     
+      
+
+    </div>  
+  </div>
+
+
+  <div class="footer">
+    <p>javion25.github.io 版权所有 &copy;</p>
+  </div>
+</body>
+</html>

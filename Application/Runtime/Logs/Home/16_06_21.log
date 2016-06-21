@@ -1,0 +1,9 @@
+[ 2016-06-21T17:37:40+08:00 ] 127.0.0.1 /HSLshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.099657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099988s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhou'@'localhost' (using password: YES)
+

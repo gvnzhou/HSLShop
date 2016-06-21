@@ -19,6 +19,7 @@ class IndexController extends Controller {
       // 查找推荐的商品数据 
       $GoodsPromoteList = $Goods->where("is_promote = 1")->select();
 
+
       // 查找热门的商品数据 
       $GoodsHotList = $Goods->where("is_hot = 1")->select();
 

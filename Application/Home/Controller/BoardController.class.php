@@ -10,7 +10,6 @@ class BoardController extends Controller {
       // 查找enabledd值为1的商品分类数据 
       $GoodsTypeList = $GoodsType->where("enabled = 1")->select();
 
-
       $MessageBoard = M("MessageBoard"); // 实例化留言板对象
 
       $MessageBoardList = $MessageBoard->select();

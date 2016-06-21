@@ -1,0 +1,40 @@
+<include file="./Application/Home/View/Index/head.html" />
+<include file="./Application/Home/View/Index/sidebar.html" />
+
+      <div class="content">
+        <div class="product-list">
+          <h1>搜索结果</h1>
+          <ul class="new-list clearfix">
+            <volist name="GoodsList" id="vo">
+            <li>
+              <img src="__ROOT__/{$vo.goods_img}" alt="">
+              <a href="__APP__/Home/Goods/index/GoodsId/{$vo.goods_id}" class="pro-title">{$vo.goods_name}</a>
+              <div class="pro-price">
+                  <span>￥{$vo.goods_price}</span>/
+                  <a href="">
+                    <switch name="vo.cat_id">
+                      <case value="1">个人化妆</case>
+                      <case value="6">图书影像</case>
+                      <case value="7">家用电器</case>
+                      <case value="8">手机数码</case>
+                      <case value="9">服装帽饰</case>
+                      <case value="10">运动健康</case>
+                      <case value="11">母婴玩具</case>
+                    </switch>
+                  </a>
+              </div>
+            </li>
+            </volist>
+          </ul>
+        </div>
+
+      
+      
+
+      </div>  
+  </div>
+
+<include file="./Application/Home/View/Index/footer.html" />
+
+</body>
+</html>

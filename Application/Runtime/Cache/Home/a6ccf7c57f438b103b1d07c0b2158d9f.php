@@ -57,9 +57,9 @@
 
       <div class="content">
         <div class="product-list">
-          <h1>最新产品</h1>
+          <h1>搜索结果</h1>
           <ul class="new-list clearfix">
-            <?php if(is_array($GoodsNewList)): $i = 0; $__LIST__ = $GoodsNewList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
+            <?php if(is_array($GoodsList)): $i = 0; $__LIST__ = $GoodsList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
               <img src="/HSLshop/<?php echo ($vo["goods_img"]); ?>" alt="">
               <a href="/HSLshop/index.php/Home/Goods/index/GoodsId/<?php echo ($vo["goods_id"]); ?>" class="pro-title"><?php echo ($vo["goods_name"]); ?></a>
               <div class="pro-price">
@@ -78,50 +78,7 @@
           </ul>
         </div>
 
-      <div class="product-list">
-        <h1>商品推荐</h1>
-        <ul class="new-list clearfix">
-          <?php if(is_array($GoodsPromoteList)): $i = 0; $__LIST__ = $GoodsPromoteList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-              <img src="/HSLshop/<?php echo ($vo["goods_img"]); ?>" alt="">
-              <a href="/HSLshop/index.php/Home/Goods/index/GoodsId/<?php echo ($vo["goods_id"]); ?>" class="pro-title"><?php echo ($vo["goods_name"]); ?></a>
-              <div class="pro-price">
-                  <span>￥<?php echo ($vo["goods_price"]); ?></span>/
-                  <a href="">
-                    <?php switch($vo["cat_id"]): case "1": ?>个人化妆<?php break;?>
-                      <?php case "6": ?>图书影像<?php break;?>
-                      <?php case "7": ?>家用电器<?php break;?>
-                      <?php case "8": ?>手机数码<?php break;?>
-                      <?php case "9": ?>服装帽饰<?php break;?>
-                      <?php case "10": ?>运动健康<?php break;?>
-                      <?php case "11": ?>母婴玩具<?php break; endswitch;?>
-                  </a>
-              </div>
-            </li><?php endforeach; endif; else: echo "" ;endif; ?>
-        </ul>
-      </div>
-
-        <div class="product-list">
-          <h1>特色商品</h1>
-          <ul class="new-list clearfix">
-            <?php if(is_array($GoodsHotList)): $i = 0; $__LIST__ = $GoodsHotList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-              <img src="/HSLshop/<?php echo ($vo["goods_img"]); ?>" alt="">
-              <a href="/HSLshop/index.php/Home/Goods/index/GoodsId/<?php echo ($vo["goods_id"]); ?>" class="pro-title"><?php echo ($vo["goods_name"]); ?></a>
-              <div class="pro-price">
-                  <span>￥<?php echo ($vo["goods_price"]); ?></span>/
-                  <a href="">
-                    <?php switch($vo["cat_id"]): case "1": ?>个人化妆<?php break;?>
-                      <?php case "6": ?>图书影像<?php break;?>
-                      <?php case "7": ?>家用电器<?php break;?>
-                      <?php case "8": ?>手机数码<?php break;?>
-                      <?php case "9": ?>服装帽饰<?php break;?>
-                      <?php case "10": ?>运动健康<?php break;?>
-                      <?php case "11": ?>母婴玩具<?php break; endswitch;?>
-                  </a>
-              </div>
-            </li><?php endforeach; endif; else: echo "" ;endif; ?>
-          </ul>
-        </div>
-      </div>    
+      
       
 
       </div>  

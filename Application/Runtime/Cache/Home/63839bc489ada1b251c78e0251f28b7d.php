@@ -37,7 +37,7 @@
       <div class="banner">
         <img src="/HSLshop/Public/home/img/logo.jpg" alt="">
         <div class="search-box">
-          <form action="">
+          <form action="/HSLshop/index.php/Home/GoodsSearch/index">
               <input type="text" name="keywords" placeholder="输入你想买的东西"><button>搜索</button>
           </form>
           <div class="search-hot">
